@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: rgb(27, 29, 28);
+    font-family: 'digital';
+
+}
+h1#principal{
+    text-align: center;
+    background-color: indianred;
+    color: ivory;
+}
+
+h1{
+    color: indianred;
+    font-family: 'digital';
+    font-size: 3em;
+            font-weight: normal;
+}
+
+h2{
+    color: violet;
+}
+
+p{
+    color: greenyellow;
+}
+
