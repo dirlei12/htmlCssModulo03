@@ -1,0 +1,12 @@
+@charset "uft-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: red;
+}
+
+
