@@ -13,7 +13,7 @@ html, body{
 
 header{
     height: 200px;
-    background-image: url(textureHeader.jpg);
+    background-image: url(images/textureHeader.jpg);
     text-align: center;
     background-color: rgb(8, 8, 8);
 }
@@ -37,7 +37,7 @@ section{
 
 section.normal{
     background-color: rgba(37, 37, 37, 0.37);
-    background-image: url(textute.avif);
+    background-image: url(images/textute.avif);
     background-size: cover;
     
 }
@@ -63,24 +63,24 @@ section.img p{
 }
 
 section.img#img1{
-    background-image: url(img1-1024x683.jpg);
+    background-image: url(images/img1-1024x683.jpg);
     background-position: center;
 }
 section.img#img2{
-    background-image: url(img2.jpg);
+    background-image: url(images/img2.jpg);
     background-position: center;
 }
 section.img#img3{
-    background-image: url(img3.jpg);
+    background-image: url(images/img3.jpg);
     background-position: center;
 }
 section.img#img4{
-    background-image: url(img4.jpg);
+    background-image: url(images/img4.jpg);
     background-position: center;
 }
 
 footer{
-    background-image: url(textureHeader.jpg);
+    background-image: url(images/textureHeader.jpg);
     height: 50px;
 }
 
