@@ -1,3 +1,85 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;    
+}
 
+header{
+    height: 200px;
+    background-image: url(textureHeader.jpg);
+    text-align: center;
+    background-color: brown;
+}
+
+header> h1{
+    height: 100px;
+    color: antiquewhite;
+    padding: 2em;
+    font-size: 3.5em;
+    text-shadow: 2px 2px 3px black;
+    font-variant: small-caps;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+
+section.normal{
+    background-color: rgba(37, 37, 37, 0.37);
+    background-image: url(textute.avif);
+    background-size: cover;
+    
+}
+section.normal p{
+    
+    display: inline-block;
+    
+}
+
+section.img{
+    background-color: rgba(0, 0, 0, 0.363);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.568);
+       
+}
+
+section.img p{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.384);
+    display: inline-block;
+    box-shadow:  5px 5px 5px  rgba(75, 74, 74, 0.014);
+}
+
+section.img#img1{
+    background-image: url(img1-1024x683.jpg);
+    background-position: center;
+}
+section.img#img2{
+    background-image: url(img2.jpg);
+    background-position: center;
+}
+section.img#img3{
+    background-image: url(img3.jpg);
+    background-position: center;
+}
+section.img#img4{
+    background-image: url(img4.jpg);
+    background-position: center;
+}
+
+footer{
+    background-image: url(textureHeader.jpg);
+    height: 50px;
+}
+
+footer h2{
+    text-align: center;
+    color: antiquewhite;
+    text-shadow: 2px 2px 2px black;
+}

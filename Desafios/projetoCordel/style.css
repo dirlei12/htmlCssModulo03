@@ -26,6 +26,7 @@ html, body{
 }
 
 header{
+    
     background-color: black;
     color: white;
     text-align: center;
@@ -99,7 +100,7 @@ section#img2{
     
 }
 
-footer 
+
 
 footer {
     background-color: black;
@@ -107,3 +108,5 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+
